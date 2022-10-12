@@ -1,0 +1,37 @@
+.sync-status{
+  background: red;
+  text-align: center;
+  padding: 4px 4px 7px;
+  color: #fff;
+  margin: 10px 0 5px 0;
+  overflow: hidden;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.sync-status-small-btn{
+  text-align: center;
+  padding: 3px;
+  color: red;
+  overflow: hidden;
+  border-radius: 3px;
+  border-width: 2px;
+  border-color: red;
+  font-weight: bold;
+  border-style: solid;
+}
+
+table.syncDetails {
+  width: auto;
+  margin: 10px auto 20px;
+}
+.syncDetails tr td {
+  text-align: right;
+  padding: 5px;
+}
+.syncDetails tr td:first-child{
+  text-align: left;
+  font-weight: bold;
+}
+
+

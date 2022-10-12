@@ -1,0 +1,5 @@
+repository: bit bitbucket
+branch : magnates
+
+
+this is latest upto date magnates branch

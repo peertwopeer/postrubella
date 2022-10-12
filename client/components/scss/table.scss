@@ -1,0 +1,99 @@
+// |--------------------------------------------------------------------------
+// | Table
+// |--------------------------------------------------------------------------
+// |
+// |
+
+@import 'global.scss';
+
+// colors
+$table-border: #f4f4f4;
+
+table{
+  font-size: 14.5px; 
+  line-height: 18px;
+  
+  .delivery-status{
+    width: 14px;
+    max-width: 14px;
+    min-width: 14px;
+    padding: 14px 9px 0 12px;
+    svg{
+      width: 14px !important;
+      height: 14px !important;
+    }
+  }
+  
+  thead{
+    background: #f4f6f7;
+    .delivery-status{
+      padding: 6px 9px 5px 12px; 
+    }
+    tr{
+      th{
+        color: $black;
+        font-weight: 700;
+        padding: 11px;
+        border-top: 1px solid #edeeef;
+        border-left: 1px solid #edeeef;
+        border-right: 1px solid #edeeef;
+        border-bottom: 2px solid $brand;
+      }
+    }
+  }
+  
+  tbody{
+    
+    tr{
+      border-top: 1px solid $table-border;
+      border-bottom: 1px solid #f4f4f4;
+      td{
+        padding: 9px 7px;
+        border-left: 1px solid $table-border;
+        border-right: 1px solid $table-border;
+        border-bottom: 1px solid $table-border;
+      }
+      &:hover{
+        background: $table-border;
+      }
+    }
+  }
+  
+}
+
+// view-toggle
+.view-toggle{
+  margin-bottom: 22px;
+  .left{
+    max-width: 80%;
+    width: 100%;
+    @media screen and (max-width: 851px) {
+      max-width: 100%;
+      float: none !important;
+    }
+  }
+  .right{
+    @media screen and (max-width: 851px) {
+      display: none; 
+    }
+    .buttons{
+      span{
+        margin: 0 11px 0 0;
+        img{
+          max-width: 30px;
+        }
+      }
+    }
+  }
+}
+
+
+.generate{
+  padding: 5px;
+  font-weight: 700;
+}
+
+.parcel-container{
+  //overflow: hidden;
+  margin-bottom: 160px;
+}

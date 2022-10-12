@@ -1,0 +1,37 @@
+_namespace: "newfunctionality"
+_locale: "en"
+"What’s new in version  23.15": "What’s new in version  23.15"
+"Update 1 postrubella is now available on the Google Play store for Android!": "Update 1: postrubella is now available on the Google Play Store for Android!"
+"Using postrubella on a mobile device has never been easier Download on the Play store and never worry about updates again turn auto updates ON on your device and we will do the rest!": "Using postrubella on a mobile device has never been easier! Download on the Play store and never worry about updates again, turn auto updates 'ON' on your device and we will do the rest!"
+"Update 2 Updated User Interface Features": "Update 2: Updated User Interface Features"
+"Our Calendar, postrubella and Reports page are looking fresh!": "Our Calendar, postrubella and Reports page are looking fresh!"
+"Update 3 Sync warning": "Update 3: Sync warning"
+"Now when using the mobile app, you will be reminded to SYNC your new inbound and outbound parcels with a handy reminder!": "Now when using the mobile app, you will be reminded to SYNC your new inbound and outbound parcels with a handy reminder!"
+"Update 4 Add Recipients and Senders on mobile!": "Update 4: Add Recipients and Senders on mobile!"
+"When adding a parcel on inbound you can now add senders and recipients without the need to go back to the PC and enter them in settings!": "When adding a parcel on inbound you can now add senders and recipients without the need to go back to the PC and enter them in settings!"
+
+"Update: postrubella is now available on the Google Play store for Android!": "Update: postrubella is now available on the Google Play store for Android!"
+
+"You will require a Google account on your device.If there is not one already please do the following:": "You will require a Google account on your device.If there is not one already please do the following:"
+"Head into the Settings of your device": "1. Head into the Settings of your device."
+"Scroll down and tap on the Accounts option": '2. Scroll down and tap on the "Accounts" option.'
+"Tap on the Add account option at the bottom of your screen": '3.  Tap on the "Add account" option at the bottom of your screen.'
+"Select Google": '4. Select "Google".'
+"Tap on create account": '5. Tap on "create account".'
+"Follow on-screen instructons by entering your info, selecting a username (EG:SmlthStreetpostrubella),  etc": "6. Follow on-screen instructons by entering your info, selecting a username (EG:SmlthStreetpostrubella),  etc."
+"Tap the I Agree button to create your Google account": '7. Tap the "I Agree" button to create your Google account.'
+"To download the app:": "To download the app:"
+"Tap the Play store icon on your device": "1. Tap the Play store icon on your device."
+"Enter in the search bar postrubella": '2. Enter in the search bar "postrubella".'
+"Select the postrubella application with the org_placeholder logo": '3.  Select the "postrubella" application with the org_placeholder logo.'
+"Tap Download": '4. Tap "Download".'
+"Once downloaded login as usual": "5. Once downloaded log in as usual."
+"Head back to Play store": "6. Head back to Play store."
+"Go to Settings": '7. Go to "Settings".'
+"Enable Auto App Updates": "8. Enable Auto App Updates."
+"Update 1: New Dashboard ": "Update 1: New Dashboard "
+"Get an overview of your postrubella on your home page. Track overdue mail, see your report data at a glance and filter by date/time and location!": "Get an overview of your postrubella on your home page. Track overdue mail, see your report data at a glance and filter by date/time and location!"
+"Update 2: Two Factor Authentication": "Update 2: Two Factor Authentication"
+"Increase your postrubella’s security by enabling two factor authentication! Contact the org_placeholder team to switch this feature ON!": "Increase your postrubella’s security by enabling two factor authentication! Contact the org_placeholder team to switch this feature ON!"
+"Update 3: No More Duplicate Barcodes": "Update 3: No More Duplicate Barcodes"
+"You no longer need to worry about barcodes being inputted twice by mistake, org_placeholder postrubella will prevent this occurring with a handy warning!": "You no longer need to worry about barcodes being inputted twice by mistake, org_placeholder postrubella will prevent this occurring with a handy warning!"

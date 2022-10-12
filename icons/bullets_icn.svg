@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{fill:#0C3353;}
+	.st3{fill:#FFFF00;}
+	.st4{display:inline;fill:#0C3353;}
+	.st5{font-family:'Roboto-Black';}
+	.st6{font-size:76px;}
+	.st7{fill:none;stroke:#000000;stroke-width:25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st8{display:inline;fill:none;stroke:#000000;stroke-width:25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st9{display:inline;fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st10{display:inline;fill:none;stroke:#000000;stroke-width:25;stroke-linecap:round;stroke-miterlimit:10;}
+	.st11{display:inline;fill:none;stroke:#000000;stroke-width:38;stroke-linecap:round;stroke-miterlimit:10;}
+	.st12{fill:none;stroke:#000000;stroke-width:25;stroke-linecap:round;stroke-miterlimit:10;}
+	.st13{fill:none;stroke:#000000;stroke-width:38;stroke-linecap:round;stroke-miterlimit:10;}
+	.st14{display:inline;fill:none;stroke:#000000;stroke-width:38;stroke-miterlimit:10;}
+	.st15{font-family:'MyriadPro-Regular';}
+	.st16{font-size:12px;}
+</style>
+<g id="postrubella" class="st0">
+	<g class="st1">
+		<g>
+			<g>
+				<g>
+					<g>
+						<g>
+							<path class="st2" d="M392.97,442.78H119.03c-42.54,0-74.79-15.29-90.81-43.04c-16.02-27.75-13.13-63.32,8.13-100.16
+								L173.32,62.35C194.59,25.51,223.95,5.22,256,5.22s61.41,20.29,82.68,57.12l136.97,237.23
+								c21.27,36.84,24.16,72.41,8.13,100.16C467.75,427.49,435.5,442.78,392.97,442.78z M256,38c-19.84,0-39.12,14.47-54.29,40.73
+								L64.75,315.97c-15.17,26.27-18.05,50.2-8.13,67.38C66.53,400.54,88.7,410,119.03,410h273.93c30.33,0,52.5-9.46,62.42-26.65
+								c9.92-17.18,7.03-41.11-8.13-67.38L310.29,78.74C295.12,52.47,275.84,38,256,38z"/>
+						</g>
+					</g>
+					<g>
+						<path class="st3" d="M238.93,94.02c9.39-16.26,24.76-16.26,34.15,0c9.39,16.26,24.76,42.88,34.15,59.14
+							c9.39,16.26,1.71,29.57-17.07,29.57s-49.51,0-68.29,0s-26.46-13.31-17.07-29.57S229.54,110.29,238.93,94.02z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 85.3813 506)" class="st4 st5 st6">Post Room</text>
+</g>
+<g id="Dead_Zone" class="st0">
+	<g class="st1">
+		<g>
+			<g>
+				<g>
+					<g>
+						<g>
+							<path class="st2" d="M392.97,442.78H119.03c-42.54,0-74.79-15.29-90.81-43.04c-16.02-27.75-13.13-63.32,8.13-100.16
+								L173.32,62.35C194.59,25.51,223.95,5.22,256,5.22s61.41,20.29,82.68,57.12l136.97,237.23
+								c21.27,36.84,24.16,72.41,8.13,100.16C467.75,427.49,435.5,442.78,392.97,442.78z M256,38c-19.84,0-39.12,14.47-54.29,40.73
+								L64.75,315.97c-15.17,26.27-18.05,50.2-8.13,67.38C66.53,400.54,88.7,410,119.03,410h273.93c30.33,0,52.5-9.46,62.42-26.65
+								c9.92-17.18,7.03-41.11-8.13-67.38L310.29,78.74C295.12,52.47,275.84,38,256,38z"/>
+						</g>
+					</g>
+					<g>
+						<path class="st2" d="M238.93,94.02c9.39-16.26,24.76-16.26,34.15,0c9.39,16.26,24.76,42.88,34.15,59.14
+							c9.39,16.26,1.71,29.57-17.07,29.57s-49.51,0-68.29,0s-26.46-13.31-17.07-29.57S229.54,110.29,238.93,94.02z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 81.8486 506)" class="st4 st5 st6">Dead Zone</text>
+</g>
+<g id="chart" class="st0">
+	<g class="st1">
+		<polygon class="st7" points="333.5,460.5 100,460.5 100,66.5 412,66.5 412,363 		"/>
+		<polyline class="st7" points="412,360.5 326,360.5 326,460.5 		"/>
+	</g>
+	<line class="st8" x1="155" y1="365.5" x2="267" y2="365.5"/>
+	<line class="st8" x1="155" y1="412.5" x2="267" y2="412.5"/>
+	<circle class="st8" cx="152" cy="171.5" r="9"/>
+	<circle class="st8" cx="226" cy="121.5" r="9"/>
+	<circle class="st8" cx="293" cy="175.5" r="9"/>
+	<circle class="st8" cx="364" cy="124.5" r="9"/>
+	<path class="st1" d="M161.68,204.89l33.95-20.37c3.68-2.21,8.37,0.44,8.37,4.74v119.72c0,3.05-2.47,5.52-5.52,5.52h-33.95
+		c-3.05,0-5.52-2.47-5.52-5.52v-99.35C159,207.69,160.02,205.89,161.68,204.89z"/>
+	<path class="st1" d="M243.48,186.18l33.95,27.16c1.31,1.05,2.07,2.64,2.07,4.31v91.82c0,3.05-2.47,5.52-5.52,5.52h-33.95
+		c-3.05,0-5.52-2.47-5.52-5.52V190.5C234.5,185.86,239.86,183.29,243.48,186.18z"/>
+	<path class="st1" d="M310.57,213.34l33.95-27.16c3.62-2.89,8.98-0.32,8.98,4.31v118.98c0,3.05-2.47,5.52-5.52,5.52h-33.95
+		c-3.05,0-5.52-2.47-5.52-5.52v-91.82C308.5,215.98,309.26,214.39,310.57,213.34z"/>
+	<polyline class="st9" points="152,172 226.5,126 293.5,175 364.5,124 	"/>
+</g>
+<g id="Line_chart" class="st0">
+	<polyline class="st10" points="51.5,33.5 51.5,461.5 474.5,461.5 	"/>
+	<line class="st10" x1="87.5" y1="125.5" x2="51.5" y2="125.5"/>
+	<line class="st10" x1="87.5" y1="210.5" x2="51.5" y2="210.5"/>
+	<line class="st10" x1="87.5" y1="295.5" x2="51.5" y2="295.5"/>
+	<line class="st10" x1="87.5" y1="380.5" x2="51.5" y2="380.5"/>
+	<circle class="st10" cx="161.5" cy="319.5" r="28"/>
+	<circle class="st10" cx="245.5" cy="206.5" r="28"/>
+	<circle class="st10" cx="350.5" cy="293.5" r="28"/>
+	<circle class="st10" cx="439.5" cy="125.5" r="28"/>
+	<line class="st10" x1="175.93" y1="295.5" x2="226.16" y2="230.74"/>
+	<line class="st10" x1="269" y1="225.72" x2="323.5" y2="272.5"/>
+	<line class="st10" x1="369.63" y1="268.77" x2="429.36" y2="154.19"/>
+</g>
+<g id="point" class="st0">
+	<polyline class="st10" points="461,421 461,88 51,88 51,421 387,421 	"/>
+	<circle class="st10" cx="139" cy="218" r="38"/>
+	<line class="st11" x1="228" y1="218" x2="398" y2="218"/>
+</g>
+<g id="Bullets">
+	<circle class="st12" cx="83" cy="395" r="38"/>
+	<line class="st13" x1="198" y1="395" x2="456" y2="395"/>
+	<circle class="st12" cx="83" cy="255" r="38"/>
+	<line class="st13" x1="198" y1="255" x2="456" y2="255"/>
+	<circle class="st12" cx="83" cy="115" r="38"/>
+	<line class="st13" x1="198" y1="115" x2="456" y2="115"/>
+</g>
+<g id="search" class="st0">
+	<circle class="st14" cx="224.5" cy="219.5" r="140"/>
+	<line class="st11" x1="451" y1="458" x2="318.63" y2="323.13"/>
+</g>
+<g id="nyt_x5F_exporter_x5F_info" class="st0">
+	<text transform="matrix(1 0 0 1 0 -1)" class="st1"><tspan x="0" y="0" class="st15 st16">&lt;nyt_prefs&gt;</tspan><tspan x="0" y="14.4" class="st15 st16">  &lt;nyt_prefix&gt;&lt;/nyt_prefix&gt;</tspan><tspan x="0" y="28.8" class="st15 st16">  &lt;nyt_suffix&gt;&lt;/nyt_suffix&gt;</tspan><tspan x="0" y="43.2" class="st15 st16">  &lt;nyt_base_path&gt;D:\Design-Work\Fiverr\ufundorg_placeholder\11-FO3CF686A185\black&lt;/nyt_base_path&gt;</tspan><tspan x="0" y="57.6" class="st15 st16">  &lt;nyt_scaling&gt;100&lt;/nyt_scaling&gt;</tspan><tspan x="0" y="72" class="st15 st16">  &lt;nyt_transparency&gt;true&lt;/nyt_transparency&gt;</tspan><tspan x="0" y="86.4" class="st15 st16">  &lt;nyt_format&gt;PNG 24&lt;/nyt_format&gt;</tspan><tspan x="0" y="100.8" class="st15 st16">  &lt;nyt_export_code&gt;layers&lt;/nyt_export_code&gt;</tspan><tspan x="0" y="115.2" class="st15 st16">&lt;/nyt_prefs&gt;</tspan></text>
+</g>
+</svg>

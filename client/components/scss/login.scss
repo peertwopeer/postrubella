@@ -1,0 +1,67 @@
+@import 'global.scss';
+
+.accounts-ui{
+
+  .fields{
+    .field{
+      border: 0;
+      border-radius: 0;
+      background-color: transparent;
+      margin-bottom: 10px;
+      label{
+        display:none;
+      }
+      input{
+        border: 1px solid $text;
+        background: $white;
+        border-radius: 3px;
+        color: $black;
+      }
+      .message{
+        text-align: center;
+        &.warning,
+        &.error{
+          color: $warning;
+        }
+      }
+    }
+  }
+
+  .buttons{
+    button{
+      width: 100%;
+      text-align: center;
+      border-radius: 3px;
+      background:$brand;
+      color: $white;
+      padding: 10px 16px;
+      line-height: 20px;
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: 500;
+      margin-bottom: 10px;
+      -webkit-transition: all 0.3s cubic-bezier(.41, .01, .57, 1.01);
+      -moz-transition: all 0.3s cubic-bezier(.41, .01, .57, 1.01);
+      transition: all 0.3s cubic-bezier(.41, .01, .57, 1.01);
+      &:hover{
+        background:darken($brand, 2% );
+        cursor: pointer;
+      }
+    }
+    a{
+      color: $text;
+      text-align: center;
+      display: block;
+      -webkit-transition: all 0.3s cubic-bezier(.41, .01, .57, 1.01);
+      -moz-transition: all 0.3s cubic-bezier(.41, .01, .57, 1.01);
+      transition: all 0.3s cubic-bezier(.41, .01, .57, 1.01);
+      &:hover{
+        -webkit-transition: all 0.3s cubic-bezier(.41, .01, .57, 1.01);
+        -moz-transition: all 0.3s cubic-bezier(.41, .01, .57, 1.01);
+        transition: all 0.3s cubic-bezier(.41, .01, .57, 1.01);
+        color: $brand;
+        text-decoration: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+_namespace: "recipient"
+_locale: "de"
+"Are you sure to Delete Recipient :": "Sind Sie sicher, dass Sie den Empfänger löschen möchten?"
+"Recipient": "Empfänger"
+"Please enter a Recipient name": "Bitte geben Sie einen Empfänger ein"
+"Recipient Name": "Name des Empfängers"
+"Add new recipient": "Neuen Empfänger hinzufügent"
+"Add recipient": "Empfänger hinzufügent"
+"Recipient name already exists": "Empfänger existiert bereits!"
+

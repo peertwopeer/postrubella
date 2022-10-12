@@ -1,0 +1,67 @@
+const { exec } = require('child_process');
+
+
+let targetEnvironment = 'local';
+let envPath = 'env/local';
+
+process.argv.map((arg) => {
+    if(arg.includes('targetEnvironment')){
+        targetEnvironment = arg.split('--targetEnvironment=')[1];
+    }
+});
+
+switch (targetEnvironment) {
+    case 'local':
+        console.log('Setting local environment...');
+        exec("yes | cp -r "+envPath+"/resources .; echo resources copied; yes | cp "+envPath+"/mobile-config mobile-config.js; echo mobile-config.js copied;", (error, stdout, stderr) => {
+            if (error) {
+                console.log(`error: ${error.message}`);
+                return;
+            }
+            if (stderr) {
+                console.log(`stderr: ${stderr}`);
+                return;
+            }
+            console.log(`stdout: ${stdout}`);
+            console.log('Process complemeted')
+        });
+        break;
+
+    case 'dev':
+        console.log('Setting dev environment...');
+        envPath = 'env/dev';
+        exec("yes | cp -r "+envPath+"/resources .; echo resources copied; yes | cp "+envPath+"/mobile-config mobile-config.js; echo mobile-config.js copied;", (error, stdout, stderr) => {
+            if (error) {
+                console.log(`error: ${error.message}`);
+                return;
+            }
+            if (stderr) {
+                console.log(`stderr: ${stderr}`);
+                return;
+            }
+            console.log(`stdout: ${stdout}`);
+            console.log('Process complemeted')
+        });
+        break;
+
+    case 'live':
+        console.log('Setting live environment...');
+        envPath = 'env/live';
+        exec("yes | cp -r "+envPath+"/resources .; echo resources copied; yes | cp "+envPath+"/mobile-config mobile-config.js; echo mobile-config.js copied;", (error, stdout, stderr) => {
+            if (error) {
+                console.log(`error: ${error.message}`);
+                return;
+            }
+            if (stderr) {
+                console.log(`stderr: ${stderr}`);
+                return;
+            }
+            console.log(`stdout: ${stdout}`);
+            console.log('Process complemeted')
+        });
+        break;
+
+    default:
+        console.log('Please select an environment...')
+        break;
+}

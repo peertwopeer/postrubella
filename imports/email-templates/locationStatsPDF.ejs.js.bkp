@@ -1,0 +1,79 @@
+export default `<div>
+
+    <div style="margin-bottom:20px"><img width="300" height="80" alt="logo" src="https://postrubella.ams3.digitaloceanspaces.com/public/img/logo_large.png"/></div>
+    <div style="margin-bottom:20px">YOUR REPORT</div>
+
+    <div style="margin-bottom:2px"><span style="font-weight:bold; width: 75px">FROM: </span> <%- fromDate %></div>
+    <div style="margin-bottom:20px"><span style="font-weight:bold; width: 75px">TO: </span> <%- toDate %></div>
+
+    <div style="margin-bottom:10px; border-bottom:2px solid #000; padding-bottom: 30px">
+
+        <%if (carrier) { %>
+            <div style="margin-bottom:2px"><span style="font-weight:bold; width: 75px">Carrier: </span> <%- carrier %></div>
+        <% } %>
+
+        <%if (location) { %>
+            <div style="margin-bottom:2px"><span style="font-weight:bold; width: 75px">Location: </span> <%- location %></div>
+        <% } %>
+
+        <%if (deliveryType) { %>
+            <div style="margin-bottom:2px"><span style="font-weight:bold; width: 75px">Delivery Type: </span> <%- deliveryType %></div>
+        <% } %>
+
+        <%if (deliveryStatus) { %>
+            <div style="margin-bottom:2px"><span style="font-weight:bold; width: 75px">Delivery Status: </span> <%- deliveryStatus %></div>
+        <% } %>
+
+        <%if (user) { %>
+            <div style="margin-bottom:2px"><span style="font-weight:bold; width: 75px">Delivery User: </span> <%- user %></div>
+        <% } %>
+
+        <%if (itemType) { %>
+            <div style="margin-bottom:2px"><span style="font-weight:bold; width: 75px">Item Type: </span> <%- itemType %></div>
+        <% } %>
+
+    </div>
+
+    <div style="margin-bottom:20px">
+        <% locations.forEach(function(location){ %>
+            <h3><%- location %></h3>
+
+            <div style="margin-bottom:20px;">Number of parcels: <%- parcels[location].length %></div>
+
+            <%  parcels[location].forEach(function(parcel){ %>
+            <div style="border:1px solid #edeeef; border-radius:5px; margin-bottom:20px; padding:20px;">
+
+                <div><span style="font-weight:bold">Received at:</span> <%- parcel.createdAt %></div>
+                <%if (parcel.barcode) { %>
+                  <div><span style="font-weight:bold">Barcode:</span> <%- parcel.clientUniqueBarcode %> (<%- parcel.barcode %>)</div>
+                <% } else { %>
+                  <div><span style="font-weight:bold">Barcode:</span> <%- parcel.clientUniqueBarcode %></div>
+                <% } %>
+                <div><span style="font-weight:bold">Carrier:</span> <%- parcel.carrier %></div>
+                <%if (parcel.sender) { %>
+                    <div><span style="font-weight:bold">Sender:</span> <%- parcel.sender %></div>
+                <% } %>
+                <div><span style="font-weight:bold">Location/Company:</span> <%- parcel.location %></div>
+                <div><span style="font-weight:bold">Recipient / Addressee:</span> <%- parcel.recipientName %></div>
+                <%if (parcel.outboundAddress) { %>
+                    <div><span style="font-weight:bold">Outbound Address:</span> <%- parcel.outboundAddress %></div>
+                <% } %>
+                <div><span style="font-weight:bold">Type:</span> <%- parcel.deliveryType %></div>
+                <div><span style="font-weight:bold">Number of Items:</span> <%- parcel.numberOfItems %></div>
+                <div><span style="font-weight:bold">Notes:</span> <%- parcel.notes %></div>
+                <%if (parcel.xrayInput) { %>
+                    <div><span style="font-weight:bold">This item has been through an x-ray:</span> Yes</div>
+                <% } %>
+
+
+            </div>
+            <% }) %>
+
+        <% }) %>
+    </div>
+
+    <div style="margin-bottom:20px">Yours sincerely<br/>The postrubella Team.</div>
+
+    <p style="margin-bottom:30px; margin-bottom : 20px; font-size : 11px;"><b>Note:</b> This is an auto generated email, please do not reply.</p>
+
+</div>`;

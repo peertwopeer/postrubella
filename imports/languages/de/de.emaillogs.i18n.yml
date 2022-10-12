@@ -1,0 +1,6 @@
+_namespace: "emaillog"
+_locale: "de"
+"To": "An:"
+"Subject": "Betreff:"
+"Body": "Inhalt:"
+"Created At": "Created At:"

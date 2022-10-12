@@ -1,0 +1,6 @@
+_namespace: "emaillog"
+_locale: "en"
+"To": "To:"
+"Subject": "Subject:"
+"Body": "Body:"
+"Created At": "Created At:"
